@@ -16,7 +16,7 @@ const Adverticement = () => {
             </p></Link>
         </div>
 
-        <div className='mt-12 w-[70%] items-end'>
+        <div className='mt-12 w-[70%] '>
           <img src={phone} className='' />
         </div>
       </div>
