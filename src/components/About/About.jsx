@@ -8,12 +8,13 @@ const About = () => {
       <div className='max-w-[60%] text-center m-auto pt-[200px] '>
 
         <div className='text-center text-[30px] lg:text-[60px]'>
-          <h2 className='font-[300] text-[90px]'>w<span className='font-semibold lg:text-[120px]'>E</span> <span className='lg:text-[90px]  font-[200]'>love</span> <span className='font-[400] lg:text-[90px]'>sh<span className='font-[700] lg:text-[90px]'>A</span>re</span></h2>
-          <h2 className='font-[300] '> <span className='lg:text-[33.85px] font-normal'>and</span> <span className='font-[400] lg:text-[90px]'>exp<span className='font-semibold text-[90px]'>R</span>ess</span> <span className='lg:text-[64px] font-[400]'>Ar<span className='font-[800] lg:text-[90]'>T</span></span> </h2>
-          <h2><span className='lg:text-[33.85px] font-normal'>in its</span> <span className='font-[300] lg:text-[90px]'>aut<span className='font-[800] lg:'>H</span><span className='font-[200]'>enti</span><span className='font-[400]'>city</span></span></h2>
+          <h2 className='font-[300] text-[30.92px] lg:text-[90px]'>w<span className='font-semibold text-[41.32px] lg:text-[120px]'>E</span> <span className='lg:text-[90px]  font-[200]'>love</span> <span className='font-[400] lg:text-[90px]'>sh<span className='font-[700] lg:text-[90px]'>A</span>re</span></h2>
+          <h2 className='font-[300] '> <span className='lg:text-[33.85px] font-normal'>and</span> <span className='font-[400] lg:text-[90px]'>exp<span className='font-semibold text-[41.32px] lg:text-[90px]'>R</span>ess</span> <span className='lg:text-[64px] font-[400]'>Ar<span className='font-[800] lg:text-[90]'>T</span></span> </h2>
+          <h2><span className='lg:text-[33.85px] text-[15.46px] font-normal'>in its</span> <span className='font-[300] lg:text-[90px]'>aut<span className='font-[800] lg:'>H</span><span className='font-[200]'>enti</span><span className='font-[400]'>city</span></span></h2>
         </div>
 
-        <div className='text-justify m-auto max-w-[80%] text-[1rem] lg:text-[20px]'>
+        <div className='text-justify m-auto max-w-[80%] text-[1rem] lg:text-[20px] text-wrap overflow-auto'>
+
           <p className='mb-4 mt-8'>
             EARTH is the World of Art that Loves, Shares and Expresses Art in its Authenticity. You probably got that much from the heading, but let's paint a picture together shall we?</p>
           <p className='mb-4'>
