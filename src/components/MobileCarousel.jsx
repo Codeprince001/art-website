@@ -12,13 +12,27 @@ const MobileCarousel = () => {
       <Swiper
         className='bg-white p-4 flex gap-2'
         spaceBetween={20}
-        slidesPerView={2}
+        slidesPerView={3}
+        breakpoints={{
+          540: {
+            slidesPerView: 1.5,
+            spaceBetween: 20,
+            centeredSlides: true,
+            centeredSlidesBounds: true
+          },
+          768: {
+            slidesPerView: 2
+          },
+          1024: {
+            slidesPerView: 3
+          }
+        }}
       >
         <SwiperSlide><img className='mb-4' src={artCard1} /></SwiperSlide>
         <SwiperSlide><img className='' src={artCard2} /></SwiperSlide>
         <SwiperSlide><img className='' src={artCard3} /></SwiperSlide>
       </Swiper>
-    </div>
+    </div >
 
   );
 };
