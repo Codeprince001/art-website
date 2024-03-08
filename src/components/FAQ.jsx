@@ -20,7 +20,7 @@ const FAQ = () => {
           {
             accordionItems.map((item) => {
               return (
-                <AccordionItem className='pb-1'>
+                <AccordionItem className='pb-1' key={item.title}>
                   {({ isExpanded }) => (
                     <>
                       <h2 className='text-[18px] text-[#1E0734] bg-[#EDDBFE] p-[24px]'>

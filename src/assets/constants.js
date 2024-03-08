@@ -1,3 +1,7 @@
+import { RiHome5Fill } from "react-icons/ri";
+import { BiSolidNetworkChart } from "react-icons/bi";
+
+
 export const links = [
   { name: 'About', to: '/about', },
   { name: 'Roadmap', to: '/roadmap' },
@@ -7,8 +11,8 @@ export const links = [
 ];
 
 export const Offers = [
-  { title: "Find your tribe", description: "Connect with like-minded individuals who share your passion for art and creativity. As an Earthling, you'll be part of a global community that celebrates diversity, collaboration, and artistic expression." },
-  { title: "Empower your creativity", description: "Earth provides a supportive and nurturing environment for artists to unleash their creative potential. Gain access to resources, workshops, and mentorship opportunities designed to help you grow as an artist and reach your full potential." },
+  { title: "Find your tribe", icon: RiHome5Fill, description: "Connect with like-minded individuals who share your passion for art and creativity. As an Earthling, you'll be part of a global community that celebrates diversity, collaboration, and artistic expression." },
+  { title: "Empower your creativity", icon: BiSolidNetworkChart, description: "Earth provides a supportive and nurturing environment for artists to unleash their creative potential. Gain access to resources, workshops, and mentorship opportunities designed to help you grow as an artist and reach your full potential." },
   { title: "Make a Difference", description: "By joining Earth, you're not just becoming a part of an art community; you're also contributing to a movement that seeks to transform the art world for the better. " },
   { title: "A World of Possibilities", description: "Earth harnesses the power of technology to create a seamless and stress-free experience for both artists and buyers." },
 ];

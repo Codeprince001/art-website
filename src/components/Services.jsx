@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Video from './Video';
 import Value from './Value';
 
+
 const Services = () => {
   return (
     <div className='bg-gradient-to-b  from-[#FAF9FF] to-[#1E0734] text-white'>
@@ -13,15 +14,17 @@ const Services = () => {
           <p className='lg:ml-16 mt-2'>an Earthling</p>
         </div>
 
-        <div className=' grid grid-cols-1 lg:grid-cols-2 item-stretch gap-[60px] text-[#e1dfdf] mb-16 mt-8 relative'>
+        <div className=' grid grid-cols-1 lg:grid-cols-2 item-stretch gap-[60px] text-[#e1dfdf] mb-16 mt-8 relative md:p-8'>
 
           {Offers.map((offer) => {
+
             return (
-              <div className=' rounded-lg border-2 border-[#FD8EEA] to-slate-900'>
+              <div key={offer.title} className=' rounded-lg border-2 border-[#FD8EEA] to-slate-900'>
                 <div className=' bg-gradient-to-br from-[#EA6EE7] via-[#AB54FD] to-[#7D2AE7] rounded-lg blur'></div>
-                <div className='flex flex-col b p-4 '>
-                  <p className='mb-8 w-[50%] text-[#FFF]'>{offer.title}</p>
-                  <p className='text-sm text-[#e1dfdf]'>{offer.description}</p>
+                <div className='flex flex-col p-4 '>
+                  {/* <div className='text-[32px]'>{offer.icon && offer.icon}</div> */}
+                  <p className='mb-8 w-[50%] text-[#FFF] text-[20px] font-[500]'>{offer.title}</p>
+                  <p className='text-lg pb-4 text-[#e1dfdf]'>{offer.description}</p>
                 </div>
               </div>
             );

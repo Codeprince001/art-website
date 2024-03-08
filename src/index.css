@@ -14,3 +14,23 @@
   margin: 0 auto;
   width: 70%;
 }
+
+
+@media (min-width: 1024px) {
+  .bgImg {
+    background-image: url("./assets//Softle_Background.png");
+    position: relative;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .bgImg::before {
+    content: "";
+    background-color: hsla(257, 13%, 54%, 0.165);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+}

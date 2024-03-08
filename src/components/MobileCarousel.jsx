@@ -14,7 +14,7 @@ const MobileCarousel = () => {
         spaceBetween={20}
         slidesPerView={3}
         breakpoints={{
-          540: {
+          440: {
             slidesPerView: 1.5,
             spaceBetween: 20,
             centeredSlides: true,
