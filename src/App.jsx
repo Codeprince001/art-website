@@ -4,7 +4,8 @@ import Video from './components/Video';
 import Services from './components/Services';
 import Adverticement from './components/Adverticement';
 import FAQ from './components/FAQ';
-import Newletter from './components/Newletter';
+import Newsletter from './components/Newsletter';
+import Copyright from './components/Copyright';
 
 function App() {
 
@@ -20,7 +21,8 @@ function App() {
       <Adverticement />
       <div className='bg-gradient-to-b  from-[#1E0734] to-[#FAF9FF]'>
         <FAQ />
-        <Newletter />
+        <Newsletter />
+        <Copyright />
       </div>
     </>
   );
