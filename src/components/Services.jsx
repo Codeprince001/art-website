@@ -6,7 +6,7 @@ import Value from './Value';
 
 const Services = () => {
   return (
-    <div className='bg-gradient-to-b  from-[#FAF9FF] to-[#1E0734] text-white id="services" p-16'>
+    <div className='bg-gradient-to-b  from-[#FAF9FF] to-[#1E0734] text-white id="services" pt-8'>
       <div className='bg-gradient-to-br from-[#AB54FD] to-[#260742] w-[95%] md:w-[80%] m-auto text-centre md:p-8 p-6 rounded-bl-full rounded-br-full pb-[15%] md:pb-[15%]'>
         <div className='mt-8 font-medium lg:text-[36px]'>
           <p>Why become</p>
