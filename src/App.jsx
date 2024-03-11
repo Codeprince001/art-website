@@ -1,4 +1,4 @@
-import { About, Navbar } from './components';
+import { About, FAQ, Navbar, ProductApp } from './components';
 import { Route, Routes } from 'react-router-dom';
 import { Roadmap, Home } from './pages';
 
