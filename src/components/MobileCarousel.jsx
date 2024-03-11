@@ -8,13 +8,13 @@ import "swiper/css";
 
 const MobileCarousel = () => {
   return (
-    <div className='p-4'>
+    <div className='p-4 mx-auto'>
       <Swiper
         className='bg-white p-4 flex gap-2'
         spaceBetween={20}
         slidesPerView={3}
         breakpoints={{
-          440: {
+          300: {
             slidesPerView: 1.5,
             spaceBetween: 20,
             centeredSlides: true,
@@ -24,7 +24,7 @@ const MobileCarousel = () => {
             slidesPerView: 2
           },
           1024: {
-            slidesPerView: 3
+            slidesPerView: 3,
           }
         }}
       >
