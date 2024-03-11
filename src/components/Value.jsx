@@ -12,18 +12,18 @@ const Value = () => {
         <div className='flex flex-col m-auto text-center font-semibold mb-4'>
           <h4 className='text-[#1E073440] hidden lg:block text-[48px] md:max-lg:text-[32px] '>partnerships</h4>
           <h4 className='text-[#1E073480] hidden lg:block text-[48px] md:max-lg:text-[32px]'>Marketplace</h4>
-          <div className='w-full text-center flex mx-auto items-center flex-1 gap-4 justify-center text-primary'>
-            <div className='block lg:hidden border rounded-full p-8 border-[#DBB7FC] text-xl'><FaArrowLeft /></div>
-            <Link><button className='bg-[#7D2AE7] md:max-lg:text-[22px] text-white rounded-full px-16 py-8 lg:text-[40px] text-[24px] font-light italic mb-1 mt-1 text-center'>
+          <div className='w-full text-center flex mx-auto items-center flex-1 gap-4 justify-center text-primary mt-[10%] md:mt-[2%]'>
+            <div className='block lg:hidden border rounded-full md:p-8 p-4 border-[#DBB7FC] md:text-xl text-xs'><FaArrowLeft /></div>
+            <Link><button className='bg-[#7D2AE7] md:max-lg:text-[22px] text-white rounded-full md:px-16 px-8 py-4 md:py-8 lg:text-[40px] text-[24px] font-light italic mb-1 mt-1 text-center'>
               community</button></Link>
-            <div className='block lg:hidden rounded-full p-8 border border-[#DBB7FC] text-black text-xl'><FaArrowRight /></div>
+            <div className='block lg:hidden rounded-full md:p-8 p-4 border border-[#DBB7FC] text-black md:text-xl text-xs'><FaArrowRight /></div>
           </div>
           <h4 className='text-[#1E073459] hidden lg:block text-[48px] md:max-lg:text-[32px]'>Metaverse</h4>
         </div>
 
-        <div className='flex flex-col  bg-[#DFCAF9] gap-4 p-4 lg:w-[40%] w-[70%] pb-8 rounded-xl lg:m-auto m-auto'>
+        <div className='flex flex-col  bg-[#DFCAF9] gap-2 md:gap-3 p-4 lg:w-[40%] w-[90%] md:pb-8 pb-4 rounded-xl lg:m-auto m-auto'>
           <h4 className='text-[#1E0734]  lg:text-[32px] text-[24px] py-4 font-[500]'>Discover the Earth Community: A Revolution in the Art World </h4>
-          <p className='text-[#7668FD] mb-4 lg:text-[24px] text-[18px] py-4'>Our community shines a spotlight on emerging and established artists alike, ensuring their voices are heard and their creations find the perfect audience. </p>
+          <p className='text-[#7668FD] mb-2 lg:text-[24px] text-[18px] py-4'>Our community shines a spotlight on emerging and established artists alike, ensuring their voices are heard and their creations find the perfect audience. </p>
         </div>
       </div>
 
