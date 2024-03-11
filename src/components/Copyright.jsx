@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEffect } from 'react';
 import { IoMdArrowUp } from "react-icons/io";
 
 const Copyright = () => {
@@ -10,7 +11,7 @@ const Copyright = () => {
     });
   };
   return (
-    <div className='flex justify-between p-12 items-center mt-12 mb-4'>
+    <div className='flex justify-between p-12 items-center mt-12 mb-4 cursor-pointer'>
       <div className='text-[12px]'>© 2024 — Copyright</div>
       <div className='border border-primary rounded-full p-4' onClick={scrollToTop}><IoMdArrowUp /></div>
     </div>
