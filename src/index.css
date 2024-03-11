@@ -27,7 +27,7 @@
 
   .bgImg::before {
     content: "";
-    background-color: hsla(257, 13%, 54%, 0.165);
+    background-color: hsla(257, 13%, 54%, 0.009);
     position: absolute;
     top: 0;
     left: 0;
