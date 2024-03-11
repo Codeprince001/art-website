@@ -12,8 +12,8 @@ import { IoMdAdd as AddIcon } from "react-icons/io";
 import { FiMinus as MinusIcon } from "react-icons/fi";
 const FAQ = () => {
   return (
-    <div className='bg-[#ffffff] pb-[20%] rounded-bl-full rounded-br-full'>
-      <div className='p-8  w-[80%] m-auto'>
+    <div className='bg-[#ffffff] pb-[20%] rounded-bl-full rounded-br-full sm:max-[768px]:pb-[30%]'>
+      <div className='p-8  md:w-[80%] w-full m-auto'>
         <h2 className='text-[36px] pb-8 text-[#1E0734] font-medium'>FAQ</h2>
 
         <Accordion>
