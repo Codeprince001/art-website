@@ -15,7 +15,7 @@ const Home = () => {
           <h1 className=' ml-[45%] text-[32px] lg:text-[72px]'>Revolution</h1>
         </div>
 
-        <div className='mt-[30px] text-center text-[18px] mb-[60px]'>
+        <div className='mt-[30px] text-center text-[18px] mb-[30px] p-4'>
           <p>EARTH is on a mission to transform the</p>
           <p>Art world as we know it</p>
         </div>
