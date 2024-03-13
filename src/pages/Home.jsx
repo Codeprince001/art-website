@@ -11,8 +11,8 @@ const Home = () => {
         <Navbar />
 
         <div className='text-[#1E0734] text-[72px] font-semibold pt-6'>
-          <h1 className=' mr-8 text-center text-[36px] lg:text-[72px]'>Join Our Artistic</h1>
-          <h1 className=' ml-[45%] text-[36px] lg:text-[72px]'>Revolution</h1>
+          <h1 className=' mr-8 text-center text-[32px] lg:text-[72px]'>Join Our Artistic</h1>
+          <h1 className=' ml-[45%] text-[32px] lg:text-[72px]'>Revolution</h1>
         </div>
 
         <div className='mt-[30px] text-center text-[18px] mb-[60px]'>
