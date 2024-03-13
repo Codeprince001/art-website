@@ -23,10 +23,10 @@ const Navbar = () => {
           <img src={Logo} alt="logo" height="64px" />
         </Link>
 
-        <div className={`md:flex lg:flex-row flex-col lg:items-center text-[#1E0734] absolute top-24 lg:static ${mobileMenuOpen ? 'z-50' : 'z-[-1]'} lg:z-[50] left-0 w-full lg:w-auto bg-[#F3F3F3]`}>
+        <div className={`md:flex lg:flex-row flex-col lg:items-center text-[#1E0734] absolute top-24 lg:static ${mobileMenuOpen ? 'z-50' : 'z-[-1]'} lg:z-[50] left-0 w-full lg:w-auto bg-[#F3F3F3] lg:bg-inherit`}>
           {links.map((item) => {
             return (
-              <Link key={item.name} to={`#${item.to}`} className="text-[#1E0734] font-bold mr-8" >
+              <Link key={item.name} to={`${item.to}`} className="text-[#1E0734] font-bold mr-8" >
                 <div className="mb-4 p-4 text-[1.2rem] key={item.name}">
                   {item.name}
                 </div>
