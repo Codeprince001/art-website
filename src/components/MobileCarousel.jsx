@@ -28,7 +28,7 @@ const MobileCarousel = () => {
           }
         }}
       >
-        <SwiperSlide><img className='mb-4' src={artCard1} /></SwiperSlide>
+        <SwiperSlide><img className='' src={artCard1} /></SwiperSlide>
         <SwiperSlide><img className='' src={artCard2} /></SwiperSlide>
         <SwiperSlide><img className='' src={artCard3} /></SwiperSlide>
       </Swiper>
