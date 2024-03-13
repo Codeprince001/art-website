@@ -20,7 +20,7 @@ const Newsletter = () => {
           </div>
           <div>
 
-            <Link><button className='w-full lg:w-[20%] bg-gradient-to-br from-[#EA6EE7] via-[#AB54FD] to-[#7D2AE7] text-white rounded-[30px] py-6 font-semibold mb-8 text-center'>
+            <Link><button className='w-full md:w-[20%] bg-gradient-to-br from-[#EA6EE7] via-[#AB54FD] to-[#7D2AE7] text-white rounded-[30px] py-6 font-semibold mb-8 text-center'>
               submit</button></Link>
           </div>
         </div>
