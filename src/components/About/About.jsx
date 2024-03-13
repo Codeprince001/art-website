@@ -27,15 +27,14 @@ const About = () => {
 
         <div className='text-justify m-auto max-w-[80%] text-[1rem] lg:text-[20px]'>
 
-          <p className='mb-4 mt-8'>EARTH is the World of Art that Loves, Shares and Expresses Art in its Authenticity. You probably got that much from the heading, but let's paint a picture together shall we?</p>
+          <p className='mb-4 mt-8 text-justify'>EARTH is the World of Art that Loves, Shares and Expresses Art in its Authenticity. You probably got that much from the heading, but let's paint a picture together shall we?</p>
           {
             isMobile ? (
               <div>
-                <p className='mb-4'>Imagine a world where art can be expressed and experienced without limitations, where everyone is given the opportunity to enjoy everything art has to offer and more and an ecosystem where creatives and art lovers can peacefully coexist. Yes! That world. That world is EARTH...
-                  <span className='ml-4 text-[#9D5FED]'>
-                    {!showMore && (<button onClick={toggleShowMore}>read more</button>)}
-                  </span>
-                </p>
+                <p className=' text-justify mb-2'>Imagine a world where art can be expressed and experienced without limitations, where everyone is given the opportunity to enjoy everything art has to offer and more and an ecosystem where creatives and art lovers can peacefully coexist. Yes! That world. That world is EARTH{isMobile ? "..." : ""}</p>
+                <div className=' text-[#9D5FED] text-right mb-2'>
+                  {!showMore && (<button onClick={toggleShowMore}>read more</button>)}
+                </div>
                 {
                   showMore && (
                     <div className='mb-2'>
@@ -44,7 +43,7 @@ const About = () => {
                       <p> So take this giant leap for Art kind by clicking the button below to join our discord community and find your place on EARTH.</p>
 
                       <div className='text-right mt-4'>
-                        <button onClick={toggleShowMore} className=''>Show less</button>
+                        <button onClick={toggleShowMore} className='text-[#9D5FED] text-right'>Show less</button>
                       </div>
                     </div>
                   )
