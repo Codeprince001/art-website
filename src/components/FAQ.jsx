@@ -25,7 +25,7 @@ const FAQ = () => {
                     <>
                       <h2 className='text-[18px] text-[#1E0734] bg-[#EDDBFE] p-[24px]'>
                         <AccordionButton _expanded={{ color: '#7D2AE7' }}>
-                          <Box as="span" flex='1' textAlign='left' className='text-[14px]'>
+                          <Box as="span" flex='1' textAlign='left' className='text-[14px] md:text-[18px]'>
                             {item.title}
                           </Box>
                           {isExpanded ? (
