@@ -7,7 +7,7 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const Value = () => {
   return (
-    <div className='bg-[#FFFFFF] rounded-tr-full rounded-tl-full mt-12 pb-12'>
+    <div className='bg-[#FFFFFF] rounded-tr-full rounded-tl-full mt-12 lg:pb-12 pb-2'>
       <div className='lg:flex pt-[20%] m-auto lg:pt-[20%]  md:max-lg:flex-col lg:p-12'>
         <div className='flex flex-col m-auto text-center font-semibold mb-4'>
           <h4 className='text-[#1E073440] hidden lg:block text-[48px] md:max-lg:text-[32px] '>partnerships</h4>
@@ -29,7 +29,7 @@ const Value = () => {
 
 
       <div className='mt-8'>
-        <h4 className='text-[#000] lg:text-[36px] mb-6 lg:ml-12 ml-6 text-[24px] font-medium '>We value</h4>
+        <h4 className='text-[#000] lg:text-[36px] mb-2 lg:mb-4 lg:ml-12 ml-6 text-[24px] font-medium '>We value</h4>
 
         <MobileCarousel />
 
