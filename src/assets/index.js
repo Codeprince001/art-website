@@ -5,6 +5,7 @@ import Logo from "./logo (1).png";
 import artCard1 from "./art card 1.png";
 import artCard2 from "./art card 2.png";
 import artCard3 from "./art card 3.png";
-import phone from "./phone.png";
+import roadmapImg from "./roadmap_Image.jpg";
+import phone from "./iPhone14ProMockup.png";
 
-export { Background_1, Background_2, Background_3, Logo, artCard1, artCard2, artCard3, phone };
+export { Background_1, Background_2, Background_3, Logo, artCard1, artCard2, artCard3, phone, roadmapImg };
