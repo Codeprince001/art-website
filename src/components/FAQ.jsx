@@ -16,7 +16,7 @@ const FAQ = () => {
       <div className='p-8  md:w-[80%] w-full m-auto'>
         <h2 className='text-[36px] pb-8 text-[#1E0734] font-medium'>FAQ</h2>
 
-        <Accordion>
+        <Accordion allowToggle>
           {
             accordionItems.map((item) => {
               return (
@@ -24,18 +24,18 @@ const FAQ = () => {
                   {({ isExpanded }) => (
                     <>
                       <h2 className='text-[18px] text-[#1E0734] bg-[#EDDBFE] p-[24px]'>
-                        <AccordionButton>
-                          <Box as="span" flex='1' textAlign='left'>
+                        <AccordionButton _expanded={{ color: '#7D2AE7' }}>
+                          <Box as="span" flex='1' textAlign='left' className='text-[14px]'>
                             {item.title}
                           </Box>
                           {isExpanded ? (
-                            <MinusIcon fontSize='24px' color='#1E0734' />
+                            <MinusIcon fontSize='24px' color='#1E0734' fontWeight="800" />
                           ) : (
                             <AddIcon fontSize='24px' color="#1E0734" fontWeight="800" />
                           )}
                         </AccordionButton>
                       </h2>
-                      <AccordionPanel p={8} pt={8} color="#1E0734">
+                      <AccordionPanel p={8} pt={8} color="#1E0734" className='leading-5 bg-[#EDDBFE] text-[14px]'>
                         {item.description}
                       </AccordionPanel>
                     </>
